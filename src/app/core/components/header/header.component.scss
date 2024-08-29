@@ -1,0 +1,32 @@
+.f-header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(241, 183, 202);
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(214, 152, 226);
+
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-profile{
+        display: flex;
+        align-items: center;
+    }
+    .header-profile-info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .divider{
+        height: 100%;
+        width: 0;
+        border: 1px solid black;
+    }
+}
